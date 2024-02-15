@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <form id="temperatureForm">
+      <label for="celsius">Celsius:</label><br />
+      <input type="number" id="celsius" name="celsius" /><br />
+      <label for="fahrenheit">Fahrenheit:</label><br />
+      <input type="number" id="fahrenheit" name="fahrenheit" /><br />
+      <input type="submit" value="Konversi" />
+      <button type="button" onclick="resetForm()">Reset</button>
+      <button type="button" onclick="reverseConversion()">Reverse</button>
+    </form>
+    <div id="result"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
